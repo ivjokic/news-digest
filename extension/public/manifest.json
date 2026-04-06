@@ -1,0 +1,26 @@
+{
+  "manifest_version": 3,
+  "name": "News Digest",
+  "version": "1.0.0",
+  "description": "AI-powered summaries of daily news from your favorite websites",
+  "permissions": ["storage", "alarms"],
+  "icons": {
+    "16": "icon16.png",
+    "48": "icon48.png",
+    "128": "icon128.png"
+  },
+  "action": {
+    "default_popup": "popup.html",
+    "default_title": "News Digest",
+    "default_icon": {
+      "16": "icon16.png",
+      "48": "icon48.png",
+      "128": "icon128.png"
+    }
+  },
+  "options_page": "options.html",
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  }
+}

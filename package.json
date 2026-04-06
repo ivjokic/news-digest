@@ -1,0 +1,13 @@
+{
+  "name": "twitter-summary",
+  "version": "1.0.0",
+  "description": "AI-powered daily Twitter summary Chrome extension",
+  "scripts": {
+    "install:all": "npm install --prefix server && npm install --prefix extension",
+    "dev:server": "npm run dev --prefix server",
+    "dev:extension": "npm run dev --prefix extension",
+    "build:server": "npm run build --prefix server",
+    "build:extension": "npm run build --prefix extension",
+    "build": "npm run build:server && npm run build:extension"
+  }
+}
