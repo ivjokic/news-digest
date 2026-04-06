@@ -8,7 +8,7 @@ Chrome extension that scrapes and summarizes daily news from your selected websi
 
 1. You configure up to 5 news websites in the extension settings
 2. Every morning at 8 AM (or manually) the extension fetches yesterday's articles
-3. A local Node.js server scrapes each site via Firecrawl and sends the content to Groq AI
+3. A Node.js server scrapes each site via Firecrawl and sends the content to Groq AI
 4. The extension displays 3–5 bullet point summaries per site
 
 ## Project structure
