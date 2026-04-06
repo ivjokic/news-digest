@@ -2,6 +2,8 @@
 
 Chrome extension that scrapes and summarizes daily news from your selected websites using Firecrawl and Groq AI.
 
+**Live server:** https://news-digest-production.up.railway.app/health
+
 ## How it works
 
 1. You configure up to 5 news websites in the extension settings
